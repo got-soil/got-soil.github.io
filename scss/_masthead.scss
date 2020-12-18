@@ -1,7 +1,7 @@
 header.masthead {
   position: relative;
   background-color: $gray-800;
-  background: url('../img/bg-masthead.jpg') no-repeat center center;
+  background: url('https://picsum.photos/1000') no-repeat center center;
   @include background-cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -23,5 +23,13 @@ header.masthead {
     h1 {
       font-size: 3rem;
     }
+  }
+
+  .logo {
+    // background: url('https://picsum.photos/400/200') no-repeat center center;
+  }
+
+  .submit-btn {
+
   }
 }
