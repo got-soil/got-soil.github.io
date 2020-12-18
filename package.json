@@ -1,12 +1,15 @@
 {
-    "title": "Landing Page",
-    "name": "startbootstrap-landing-page",
-    "version": "5.0.9",
+    "title": "Get Soils",
+    "name": "get-soils",
+    "version": "0.0.1",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "An HTML landing page template built with Bootstrap",
+    "description": "Get Soils waiting list landing page.",
     "keywords": [
+        "soil",
+        "dirt",
+        "ontario",
         "css",
         "sass",
         "html",
@@ -14,25 +17,29 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/landing-page",
+    "homepage": "https://getsoils.ca",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-landing-page/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "TODO: UPDATE ME",
+        "email": "ops@getsoils.ca"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Get Soils",
     "contributors": [
-        "David Miller (https://davidmiller.io/)"
+        "Daniel Olshansky (https://github.com/Olshansk)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-landing-page.git"
+        "url": "TODO: UPDATE ME"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.15.1",
         "bootstrap": "4.5.3",
         "jquery": "3.5.1",
         "simple-line-icons": "2.5.5"
+    },
+    "engines": {
+        "node": ">=8.0.0 <13.0.0",
+        "description": "gulps-sass currently incompatible with higher versions of node"
     },
     "devDependencies": {
         "browser-sync": "2.26.13",
