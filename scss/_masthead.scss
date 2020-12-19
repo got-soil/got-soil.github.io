@@ -36,7 +36,7 @@ header.masthead {
     width: 100%;
     top: 0;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.55;
   }
   h1 {
     font-size: 2rem;
@@ -66,10 +66,16 @@ header.masthead {
   }
 
   .card {
-    color: $gray-400;
+    // color: $gray-400;
+    color: $white;
     font-weight: 300;
     font-size: 2rem;
     background: transparent;
     border: 0;
+  }
+
+  .main-heading {
+    font-weight: 300;
+    color: $white;
   }
 }

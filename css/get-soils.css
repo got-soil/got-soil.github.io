@@ -73,7 +73,7 @@ header.masthead .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.55;
 }
 
 header.masthead h1 {
@@ -107,11 +107,16 @@ header.masthead .spinner-border {
 }
 
 header.masthead .card {
-  color: #ced4da;
+  color: #fff;
   font-weight: 300;
   font-size: 2rem;
   background: transparent;
   border: 0;
+}
+
+header.masthead .main-heading {
+  font-weight: 300;
+  color: #fff;
 }
 
 .features-icons {
