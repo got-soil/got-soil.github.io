@@ -5,6 +5,8 @@
 * Google Form HTML Explorer: https://stefano.brilli.me/google-forms-html-exporter/
 * Friend's Reference: https://github.com/SixSecondSignups/SixSecondSignups.github.io
 * Images from: https://www.reddit.com/r/web_design/comments/4ypt45/whats_the_best_website_for_free_stock_images/
+* https://blog.cloudflare.com/secure-and-fast-github-pages-with-cloudflare/
+* https://www.codementor.io/@landonpatmore/how-to-setup-a-static-website-using-github-pages-and-cloudflare-with-your-own-domain-name-jb99nbuoe
 
 ----------------------
 

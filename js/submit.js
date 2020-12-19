@@ -3,14 +3,25 @@ function validateEmail(email) {
     return re.test(String(email).toLowerCase());
 }
 
+function removeCustomValidity() {
+  var emailField = $("#1208775221");
+  emailField[0].setCustomValidity('');
+}
+
 // Source: https://stefano.brilli.me/google-forms-html-exporter/
 $('#bootstrapForm').submit(function (event) {
     event.preventDefault();
+});
+
+$("#form-button").on("click",function(){
     var emailField = $("#1208775221");
-    console.log(emailField.val(), validateEmail(emailField.val()));
-    if (!validateEmail(emailField.val())) {
+    var email = emailField.val();
+
+    if (!validateEmail(email)) {
       emailField[0].setCustomValidity('Please enter a valid email');
       return;
+    } else {
+      emailField[0].setCustomValidity('');
     }
     $('#form-button').prop('disabled', true);
     $('.spinner-border').attr("hidden", false);
@@ -23,4 +34,4 @@ $('#bootstrapForm').submit(function (event) {
           $('#submitted-card').collapse();
         }
     })
-})
+});
