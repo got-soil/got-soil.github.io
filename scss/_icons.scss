@@ -1,4 +1,5 @@
 .features-icons {
+  color: back;
   padding-top: 5rem;
   padding-bottom: 5rem;
   .features-icons-item {
@@ -13,6 +14,7 @@
       .features-icons-icon {
         i {
           font-size: 5rem;
+          color: green;
         }
       }
     }

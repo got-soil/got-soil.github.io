@@ -5,7 +5,9 @@
  */
 
 body {
+  font-weight: 100;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: black;
 }
 
 h1,
@@ -14,17 +16,54 @@ h3,
 h4,
 h5,
 h6 {
+  font-weight: 100;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: black;
   font-weight: 700;
+}
+
+.text-primary {
+  color: #a6d33a !important;
+}
+
+.logo-color {
+  color: #a6d33a !important;
+}
+
+.logo-button {
+  background-color: #a6d33a;
+  border-color: #a6d33a;
+  color: #495057;
+}
+
+.logo-button:visited {
+  background-color: #a6d33a;
+  border-color: #a6d33a;
+  color: #495057;
+}
+
+.logo-button:hover {
+  background-color: #81a42d;
+  border-color: #81a42d;
+}
+
+.logo-button:focus {
+  background-color: #81a42d;
+  border-color: #81a42d;
+}
+
+.logo-button:disabled {
+  background-color: #81a42d;
+  border-color: #81a42d;
 }
 
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("https://picsum.photos/1000") no-repeat center center;
+  background: url("../img/background/shane-mclendon-EN1tF2EG-50-unsplash.jpg") no-repeat center center;
   background-size: cover;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 header.masthead .overlay {
@@ -43,12 +82,18 @@ header.masthead h1 {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
   header.masthead h1 {
     font-size: 3rem;
   }
+}
+
+header.masthead .logo {
+  opacity: 0.9;
+  max-width: 300px;
+  height: auto;
 }
 
 header.masthead .spinner-border {
@@ -58,11 +103,15 @@ header.masthead .spinner-border {
 }
 
 header.masthead .card {
+  color: #ced4da;
+  font-weight: 300;
+  font-size: 2rem;
   background: transparent;
   border: 0;
 }
 
 .features-icons {
+  color: back;
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
@@ -81,6 +130,7 @@ header.masthead .card {
 
 .features-icons .features-icons-item:hover .features-icons-icon i {
   font-size: 5rem;
+  color: green;
 }
 
 footer.footer {
