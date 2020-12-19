@@ -51,20 +51,15 @@ header.masthead h1 {
   }
 }
 
-.col-12 {
-  flex-grow: 1;
-  transition: all 400ms ease;
+header.masthead .spinner-border {
+  position: absolute;
+  justify-content: center;
+  right: 5%;
 }
 
-.col-0 {
-  width: 0;
-  flex-shrink: 1;
-  transition: all 400ms ease;
-  visibility: hidden;
-}
-
-.row [class*='col-9'] {
-  transition: all 5.5s ease-in-out;
+header.masthead .card {
+  background: transparent;
+  border: 0;
 }
 
 .features-icons {

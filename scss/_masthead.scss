@@ -24,60 +24,15 @@ header.masthead {
       font-size: 3rem;
     }
   }
-}
 
-.col-12 {
-  flex-grow: 1;
-  transition: all 400ms ease;
-}
+  .spinner-border {
+    position: absolute;
+    justify-content: center;
+    right: 5%;
+  }
 
-.col-0 {
-  width: 0;
-  flex-shrink: 1;
-  transition: all 400ms ease;
-  visibility: hidden;
+  .card {
+    background: transparent;
+    border: 0;
+  }
 }
-
-.row [class*='col-9'] {
-    transition: all 5.5s ease-in-out;
-}
-
-// .col-xs-0, .col-sm-0, .col-md-0, .col-lg-0 {
-//   position: relative;
-//   min-height: 1px;
-//   padding-right: 15px;
-//   padding-left: 15px;
-// }
-//
-// .col-xs-0 {
-//  float: left; width: 0;
-//  }
-//
-// @media (min-width: 768px) {
-//   .col-sm-0 {
-//  float: left; width: 0;
-//  }
-// }
-//
-// @media (min-width: 992px) {
-//   .col-md-0 {
-//  float: left; width: 0;
-//  }
-// }
-//
-// @media (min-width: 1200px) {
-//   .col-lg-0 {
-//  float: left; width: 0;
-//  }
-// }
-// .row-fluid {
-//     overflow:hidden;
-//     margin-right: -15px;
-//     margin-left: -15px;
-// }
-// .row-fluid div {
-//     -webkit-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
-//     -moz-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
-//     -o-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
-//     transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
-// }

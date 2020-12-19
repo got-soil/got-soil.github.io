@@ -28,7 +28,7 @@
   <!-- Masthead -->
   <header class="masthead text-white text-center">
     <div class="overlay"></div>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row justify-content-md-center">
           <div class="col mb-5 pd-0 mt-0 mx-auto">
             <img src="https://picsum.photos/400/200" alt="">
@@ -39,7 +39,7 @@
           <h1 class="mb-5">A marketplace for beneficial soil reuse.</h1>
         </div>
       </div>
-      <div class="row-fluid">
+      <div class="row">
         <div class="col-9 mx-auto">
           <!-- Field type: "short" id: "2032174020" -->
           <!-- https://docs.google.com/forms/d/e/1FAIpQLSeEr1Oi6mk64-RPRIo5_IwfAqkyIz6DwFIYzzrrLQp_DRiafw/viewform?usp=sf_link -->
@@ -51,31 +51,28 @@
             <input type="hidden" name="fbzx" value="6387774703722726380">
             <div class="form-row">
               <div id="form-input" class="col-md-8 col-sm-6">
-                <input id="1208775221" name="entry.1208775221" type="text" class="form-control form-control-lg" placeholder="Enter email address">
+                <input id="1208775221" name="entry.1208775221" type="email" class="form-control form-control-lg" placeholder="Enter email address">
               </div>
-              <div id="form-button" class="col-md-4 col-sm-6">
-                <button type="submit" class="submit-btn btn btn-block btn-lg btn-primary">
+              <div class="col-md-4 col-sm-6">
+                <button id="form-button" type="submit" class="submit-btn btn btn-block btn-lg btn-primary">
                   <span class="">Get Early Access</span>
-                  <span style="position: absolute; justify-content: center; right: 5%" class="spinner-border" role="status" ></span>
+                  <span class="spinner-border" hidden="true" role="status" ></span>
                 </button>
               </div>
             </div>
           </form>
         </div>
       </div>
+      <div class="row">
+        <div class="col-9 mx-auto">
+          <div id="submitted-card" class="collapse col-12">
+            <div class="card card-body">
+              Thanks! We'll be reaching out soon!
+            </div>
+          </div>
+        </div>
     </div>
   </header>
-
-  <div class="container-fluid">
-      <div class="row-fluid">
-        <div id="colA" class="col-xs-9" style="background:blue">Col 1</div>
-        <div id="colB" class="col-xs-3 " style="background:red">Col 2</div>
-      </div>
-      <div>
-        <button type="button" id="btnTest" class="btn">button</button>
-      </div>
-  </div>
-  
 
   <!-- Icons Grid -->
   <section class="features-icons bg-light text-center">
