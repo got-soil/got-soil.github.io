@@ -96,6 +96,10 @@ header.masthead .logo {
   height: auto;
 }
 
+header.masthead .fa-clickable {
+  cursor: pointer;
+}
+
 header.masthead .spinner-border {
   position: absolute;
   justify-content: center;
