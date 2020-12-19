@@ -1,11 +1,10 @@
-Source: https://startbootstrap.com/theme/landing-page/
-Github: https://github.com/startbootstrap/startbootstrap-landing-page
-Google Form HTML Explorer: https://stefano.brilli.me/google-forms-html-exporter/
-Friend's Reference: https://github.com/SixSecondSignups/SixSecondSignups.github.io
-Images from: https://www.reddit.com/r/web_design/comments/4ypt45/whats_the_best_website_for_free_stock_images/
+![Landing Page Preview](v1.png/)
 
-
-
+* Source: https://startbootstrap.com/theme/landing-page/
+* Github: https://github.com/startbootstrap/startbootstrap-landing-page
+* Google Form HTML Explorer: https://stefano.brilli.me/google-forms-html-exporter/
+* Friend's Reference: https://github.com/SixSecondSignups/SixSecondSignups.github.io
+* Images from: https://www.reddit.com/r/web_design/comments/4ypt45/whats_the_best_website_for_free_stock_images/
 
 ----------------------
 
