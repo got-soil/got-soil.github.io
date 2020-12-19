@@ -1,3 +1,14 @@
+Source: https://startbootstrap.com/theme/landing-page/
+Github: https://github.com/startbootstrap/startbootstrap-landing-page
+Google Form HTML Explorer: https://stefano.brilli.me/google-forms-html-exporter/
+Friend's Reference: https://github.com/SixSecondSignups/SixSecondSignups.github.io
+
+
+
+
+
+----------------------
+
 # [Start Bootstrap - Landing Page](https://startbootstrap.com/theme/landing-page/)
 
 [Landing Page](https://startbootstrap.com/theme/landing-page/) is a multipurpose landing page template for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).

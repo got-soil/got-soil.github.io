@@ -19,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- Custom styles for this template -->
-  <link href="css/landing-page.min.css" rel="stylesheet">
+  <link href="css/get-soils.min.css" rel="stylesheet">
 
 </head>
 
@@ -28,7 +28,7 @@
   <!-- Masthead -->
   <header class="masthead text-white text-center">
     <div class="overlay"></div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row justify-content-md-center">
           <div class="col mb-5 pd-0 mt-0 mx-auto">
             <img src="https://picsum.photos/400/200" alt="">
@@ -39,15 +39,25 @@
           <h1 class="mb-5">A marketplace for beneficial soil reuse.</h1>
         </div>
       </div>
-      <div class="row">
+      <div class="row-fluid">
         <div class="col-9 mx-auto">
-          <form>
+          <!-- Field type: "short" id: "2032174020" -->
+          <!-- https://docs.google.com/forms/d/e/1FAIpQLSeEr1Oi6mk64-RPRIo5_IwfAqkyIz6DwFIYzzrrLQp_DRiafw/viewform?usp=sf_link -->
+          <form action="https://docs.google.com/forms/d/e/1FAIpQLSeEr1Oi6mk64-RPRIo5_IwfAqkyIz6DwFIYzzrrLQp_DRiafw/formResponse"
+                target="_self"
+                id="bootstrapForm"
+                method="POST">
+            <input type="hidden" name="fvv" value="1">
+            <input type="hidden" name="fbzx" value="6387774703722726380">
             <div class="form-row">
-              <div class="col-md-8 col-sm-6">
-                <input type="email" class="form-control form-control-lg" placeholder="Enter email address">
+              <div id="form-input" class="col-md-8 col-sm-6">
+                <input id="1208775221" name="entry.1208775221" type="text" class="form-control form-control-lg" placeholder="Enter email address">
               </div>
-              <div class="col-md-4 col-sm-6">
-                <button type="submit" class="submit-btn btn btn-block btn-lg btn-primary">Get Early Access</button>
+              <div id="form-button" class="col-md-4 col-sm-6">
+                <button type="submit" class="submit-btn btn btn-block btn-lg btn-primary">
+                  <span class="">Get Early Access</span>
+                  <span style="position: absolute; justify-content: center; right: 5%" class="spinner-border" role="status" ></span>
+                </button>
               </div>
             </div>
           </form>
@@ -55,6 +65,17 @@
       </div>
     </div>
   </header>
+
+  <div class="container-fluid">
+      <div class="row-fluid">
+        <div id="colA" class="col-xs-9" style="background:blue">Col 1</div>
+        <div id="colB" class="col-xs-3 " style="background:red">Col 2</div>
+      </div>
+      <div>
+        <button type="button" id="btnTest" class="btn">button</button>
+      </div>
+  </div>
+  
 
   <!-- Icons Grid -->
   <section class="features-icons bg-light text-center">
@@ -120,7 +141,11 @@
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/jquery-form/jquery.form.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/get-soils.min.js"></script>
 
 </body>
 

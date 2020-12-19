@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Get Soils v0.0.1 (https://getsoils.ca)
- * Copyright 2013-2020 Get Soils
- * Licensed under MIT (https://github.com/StartBootstrap/get-soils/blob/master/LICENSE)
+ * Get Soils - Get Soils v0.0.1 (https://getsoils.ca)
+ * Copyright 2020-2020 Get Soils
+ * Licensed under MIT (https://github.com/TODO/get-soils/blob/master/LICENSE)
  */
 
 body {
@@ -49,6 +49,22 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+}
+
+.col-12 {
+  flex-grow: 1;
+  transition: all 400ms ease;
+}
+
+.col-0 {
+  width: 0;
+  flex-shrink: 1;
+  transition: all 400ms ease;
+  visibility: hidden;
+}
+
+.row [class*='col-9'] {
+  transition: all 5.5s ease-in-out;
 }
 
 .features-icons {
