@@ -22,6 +22,12 @@
   @include logo-color-focus;
 }
 
+.logo {
+  background-image:
+    radial-gradient(ellipse at center, rgba(255,255,255,0.8) 0%, transparent 70%);
+    overflow: visible;
+}
+
 header.masthead {
   position: relative;
   background-color: $gray-800;

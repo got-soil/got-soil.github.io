@@ -57,6 +57,11 @@ h6 {
   border-color: #81a42d;
 }
 
+.logo {
+  background-image: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.8) 0%, transparent 70%);
+  overflow: visible;
+}
+
 header.masthead {
   position: relative;
   background-color: #343a40;
